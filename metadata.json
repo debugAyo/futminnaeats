@@ -1,0 +1,8 @@
+
+{
+  "name": "FUTMinnaEats",
+  "description": "Premium food delivery and recommendation platform for FUT Minna students, featuring AI-driven suggestions and campus-focused logistics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
