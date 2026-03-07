@@ -1,0 +1,13 @@
+meta {
+  name: List Reviews
+  type: http
+  seq: 1
+}
+get {
+  url: {{base_url}}/restaurants/:id/reviews
+  body: none
+  auth: none
+}
+params:path {
+  id: REPLACE_WITH_RESTAURANT_ID
+}

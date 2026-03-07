@@ -1,0 +1,21 @@
+meta {
+  name: Update Profile
+  type: http
+  seq: 3
+}
+put {
+  url: {{base_url}}/users/me
+  body: json
+  auth: bearer
+}
+auth:bearer {
+  token: {{token}}
+}
+body:json {
+  {
+    "name": "Updated Name",
+    "campus": "Bosso",
+    "course": "Electrical Engineering",
+    "level": "400"
+  }
+}
