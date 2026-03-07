@@ -196,7 +196,7 @@ Set environment variables in Railway dashboard.
 - **Delivery**: Included in order response and WhatsApp message
 
 ### Profile Pictures
-- Accept JPEG, PNG, WebP (max 2MB)
+- Accept JPEG, PNG, WebP (max 500KB)
 - Upload to Supabase Storage (`avatars/` bucket)
 - Public URL returned for app display
 - Old file deleted on upload/delete
