@@ -1,0 +1,22 @@
+meta {
+  name: Create Profile
+  type: http
+  seq: 1
+}
+post {
+  url: {{base_url}}/users/me
+  body: json
+  auth: bearer
+}
+auth:bearer {
+  token: {{token}}
+}
+body:json {
+  {
+    "name": "Test Student",
+    "campus": "GK",
+    "course": "Computer Science",
+    "level": "300",
+    "avatar": "🎓"
+  }
+}

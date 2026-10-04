@@ -1,0 +1,5 @@
+[build]
+buildCommand = "cd backend && go build -o server ./cmd/api"
+
+[deploy]
+startCommand = "./backend/server"

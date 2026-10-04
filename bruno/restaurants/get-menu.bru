@@ -1,0 +1,13 @@
+meta {
+  name: Get Restaurant Menu
+  type: http
+  seq: 3
+}
+get {
+  url: {{base_url}}/restaurants/:id/menu
+  body: none
+  auth: none
+}
+params:path {
+  id: REPLACE_WITH_RESTAURANT_ID
+}

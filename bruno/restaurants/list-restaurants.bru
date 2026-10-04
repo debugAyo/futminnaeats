@@ -1,0 +1,14 @@
+meta {
+  name: List Restaurants
+  type: http
+  seq: 1
+}
+get {
+  url: {{base_url}}/restaurants
+  body: none
+  auth: none
+}
+params:query {
+  campus: GK
+  search:
+}
